@@ -32,3 +32,15 @@ Nothing yet
 * Russian - Native
 * Ukrainian - Intermediate
 * Polish - Basic
+#### Code example:
+```
+var summation = function (num) {
+  let i = 0;
+  let y = 1;
+  let sum = i + y;
+  for(let y = 2; y <= num; y++){
+    sum += y;
+  }
+  return sum;
+}
+```
