@@ -1,9 +1,0 @@
-/*Цвет кнопки*/
-.ec-size .ec-store .form-control--primary .form-control__button {
-    background-color: red;
-    }
-    
-    /*Цвет кнопки при наведении*/
-    .ec-size .ec-store .form-control--primary .form-control__button:hover {
-    background: #F0F8FF;
-    }
