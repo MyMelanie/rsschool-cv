@@ -27,25 +27,6 @@ ___
 #### Work experience:
 Nothing yet
 ***
-#### Code example:
-```
-function isBudgetEnough(data) {
-    let square = 0;
-    let volume = 0;
-
-    data.shops.forEach(element => {
-      square = element.width * element.length + square;  
-    });
-
-    volume = data.height * square;
-
-    if(data.budget - volume * data.moneyPer1m3 >= 0) {
-        console.log('Бюджета достаточно');
-    } else {
-        console.log('Бюджета недостаточно');
-    }
-} 
-```
 #### Languages:
 * English - Intermediate
 * Russian - Native
